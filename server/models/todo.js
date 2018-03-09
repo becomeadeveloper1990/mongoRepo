@@ -18,7 +18,7 @@ var todo = mongoose.model('Todo', {
   //   required: true
   // }
 });
-
+//
 // var newTodo = new todo({
 //   text: "Hi",
 //   completed: true,
@@ -30,5 +30,5 @@ var todo = mongoose.model('Todo', {
 // }, e => {
 //   console.log("Unable to save todo!");
 // });
-//
+
 module.exports = {todo};
